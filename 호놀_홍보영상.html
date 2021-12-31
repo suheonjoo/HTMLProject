@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgreen;
+    color: black;
+}
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    border: solid 1px #4CAF50;
+}
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
+</head>
+<body>
+<a href="호놀_홍보영상.html" target="_self" style="text-decoration:none; color:black;"><h1 style="text-align:center;">USA HOTEL</h1></a>
+<ul> 
+  <li><a href="바탕화면.html" target="_self">Home</a></li>
+  <li><a href="호놀_홍보영상.html" target="_self">홍보영상</a></li>
+  <li><a href="호놀_시설소개.html" target="_self">시설소개</a></li>
+  <li><a href="호놀_숙박가격.html" target="_self">숙박가격</a></li>
+</ul>
+
+<br>
+<h1 style="text-align:center; text-decoration:underline;">하와이 호놀룰루 호텔</h1>
+<br>
+
+<iframe style="display:block;margin:auto;" width="1000" height="600" src="https://www.youtube.com/embed/ns_c38ag3gE?controls=1">
+</iframe>
+
+<br>
+<br>
+<div id="flip">설명을 보시려면 클릭하세요</div>
+<div id="panel" style="line-height:2.0; font-size:17px; text-align:center;">
+더 모던 호놀룰루는 와이키키 해변 입구의 편리한 위치에 자리잡고 있습니다.<br>
+세계적인 규모의 쇼핑몰 알라모아나 센터가 불과 2분 거리이며 부드러운 황금빛 백사장이 있는 와이키키 해변과 쇼핑의 거리 칼라카우아 애비뉴까지 걸어갈 수 있는 이상적인 위치를 자랑합니다.<br>
+와이키키 해변 입구에 위치하였으며 아름다운 항구와 라군 클래식 해변 등 다양한 풍경과 함께 발군의 접근성을 자랑합니다.<br>
+세계적인 수준의 쇼핑을 즐기실 수 있는 알라모아나 쇼핑 센터가 보도 거리에 있으며 호텔 내에는 유명한 나이트 클럽 [어딕션], 세련미 넘치는 바 [더 스터디] 등이 입점해 있을 뿐만 아니라,<br>
+하와이의 센스 있는 명소들로 둘러싸여 있습니다.<br>
+어른들을 위한 특별한 하와이 여행을 즐기실 수 있습니다.
+</div>
+</body>
+</html>

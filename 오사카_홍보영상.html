@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgreen;
+    color: black;
+}
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    border: solid 1px #4CAF50;
+}
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
+</head>
+<body>
+<a href="오사카_홍보영상.html" target="_self" style="text-decoration:none; color:black;"><h1 style="text-align:center;">JAPAN HOTEL</h1></a>
+<ul> 
+  <li><a href="바탕화면.html" target="_self">Home</a></li>
+  <li><a href="오사카_홍보영상.html" target="_self">홍보영상</a></li>
+  <li><a href="오사카_시설소개.html" target="_self">시설소개</a></li>
+  <li><a href="오사카_숙박가격.html" target="_self">숙박가격</a></li>
+</ul>
+
+<br>
+<h1 style="text-align:center; text-decoration:underline;">콘래드 오사카 호텔</h1>
+<br>
+
+<iframe style="display:block;margin:auto;" width="1000" height="600" src="https://www.youtube.com/embed/hvGTsptUNUg?controls=1">
+</iframe>
+
+<br>
+<br>
+<div id="flip">설명을 보시려면 클릭하세요</div>
+<div id="panel" style="line-height:2.0; font-size:17px; text-align:center;">콘래드 오사카의 전 객실 및 공용 구역에서 멋진 오사카 도심 전망을 감상할 수 있습니다.<br>
+각종 미술관과 음악당으로 유명한 나카노시마 시 페스티벌 타워에 위치한 콘래드 오사카는 우메다와 난바에서 도보 거리에 있어 고객이 오사카의 활기를 만끽하기에 적합한 곳입니다.<br>
+페스티벌 타워 40층에 있는 세련된 로비와 레스토랑부터 객실, 웨딩 채플, 볼룸, 피트니스 센터 및 스파까지, 콘래드 오사카 내 모든 공간에서는 강과 오사카 스카이라인의 멋진 전망을 감상할 수 있습니다.
+</div>
+</body>
+</html>

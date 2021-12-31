@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgreen;
+    color: black;
+}
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    border: solid 1px #4CAF50;
+}
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
+</head>
+<body>
+<a href="부산_홍보영상.html" target="_self" style="text-decoration:none; color:black;"><h1 style="text-align:center;">KOREA HOTEL</h1></a>
+<ul> 
+  <li><a href="바탕화면.html" target="_self">Home</a></li>
+  <li><a href="부산_홍보영상.html" target="_self">홍보영상</a></li>
+  <li><a href="부산_시설소개.html" target="_self">시설소개</a></li>
+  <li><a href="부산_숙박가격.html" target="_self">숙박가격</a></li>
+</ul>
+
+<br>
+<h1 style="text-align:center; text-decoration:underline;">부산 힐튼호텔</h1>
+<br>
+
+<iframe style="display:block;margin:auto;" width="1000" height="600" src="https://www.youtube.com/embed/h81-OFxMaqI?controls=1">
+</iframe>
+<br>
+<br>
+<div id="flip">설명을 보시려면 클릭하세요</div>
+<div id="panel" style="line-height:2.0; font-size:17px; text-align:center;">
+동부산 해안에 위치한 '도심형 리조트' 힐튼 부산은 천혜의 자연경관을 갖추고 있으며 레저, 비즈니스 및 웨딩을 위한 완벽한 공간입니다.<br>
+현대적인 10층 건물은 천혜의 환경과 조화를 이뤄 평온한 휴식과 다채로운 경험을 제공합니다. 310개의 객실에서는 안락함을, 4개의 레스토랑과 바에서는 세계적인 맛과 멋을 즐기십시오.<br>
+또한 부산 최대 면적의 연회장에서는 성공적인 회의 및 이벤트를, 부산의 유일한 웨딩 채플에서는 극적이고 로맨틱한 웨딩을 경험하십시오.<br>
+호텔 그 자체뿐만 아니라, 호텔 주변의 유명한 역사 문화 관광지와 편의시설인 해동 용궁사, 송정 해수욕장, 국립부산과학관, 롯데 프리미엄 아울렛을 방문하여 이곳의 문화와 멋에 푹 빠져보십시오.
+</div>
+
+</body>
+</html>
