@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgreen;
+    color: black;
+}
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    border: solid 1px #4CAF50;
+}
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
+</head>
+<body>
+<a href="제주_홍보영상.html" target="_self" style="text-decoration:none; color:black;"><h1 style="text-align:center;">KOREA HOTEL</h1></a>
+<ul> 
+  <li><a href="바탕화면.html" target="_self">Home</a></li>
+  <li><a href="제주_홍보영상.html" target="_self">홍보영상</a></li>
+  <li><a href="제주_시설소개.html" target="_self">시설소개</a></li>
+  <li><a href="제주_숙박가격.html" target="_self">숙박가격</a></li>
+</ul>
+
+<br>
+<h1 style="text-align:center; text-decoration:underline;">제주 켄싱턴호텔</h1>
+<br>
+
+<iframe style="display:block;margin:auto;" width="1000" height="600" src="https://www.youtube.com/embed/DjgZd13BdU4?controls=1">
+</iframe>
+
+<br>
+<br>
+<div id="flip">설명을 보시려면 클릭하세요</div>
+<div id="panel" style="line-height:2.0; font-size:17px; text-align:center;">
+LUXURY ALL-INCLUSIVE / 럭셔리 라이프를 즐길 수 있는 천상의 휴양지<br>
+평생 잊을 수 없는 천상의 휴양, 럭셔리 올인클루시브형 호텔을 선보이는 켄싱턴 제주 호텔에서는 휴양지에서의<br>
+럭셔리 라이프를 선보입니다.<br>
+국내.외 유명작가 갤러리를 통한 명작의 감동, 최정상 셰프의 손끝을 통한 미각 감동, 루프탑 스카이피니티 풀,<br>
+사계절 모을정원을 통한 힐링의 감동까지. 최고의 시설에 최상의 서비스로 품격을 더했습니다.<br>
+</div>
+</body>
+</html>

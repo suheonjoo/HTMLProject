@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgreen;
+    color: black;
+}
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    border: solid 1px #4CAF50;
+}
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
+</head>
+<body>
+<a href="도쿄_홍보영상.html" target="_self" style="text-decoration:none; color:black;"><h1 style="text-align:center;">JAPAN HOTEL</h1></a>
+<ul> 
+  <li><a href="바탕화면.html" target="_self">Home</a></li>
+  <li><a href="도쿄_홍보영상.html" target="_self">홍보영상</a></li>
+  <li><a href="도쿄_시설소개.html" target="_self">시설소개</a></li>
+  <li><a href="도쿄_숙박가격.html" target="_self">숙박가격</a></li>
+</ul>
+
+<br>
+<h1 style="text-align:center; text-decoration:underline;">리츠칼튼 도쿄 호텔</h1>
+<br>
+
+<iframe style="display:block;margin:auto;" width="1000" height="600" src="https://www.youtube.com/embed/ZoUsGjqtU3U?controls=1">
+</iframe>
+
+<br>
+<br>
+<div id="flip">설명을 보시려면 클릭하세요</div>
+<div id="panel" style="line-height:2.0; font-size:17px; text-align:center;">새로운 문화와 비즈니스의 거점 동경 중심에 위치하여 발군의 로케이션을 자랑하는 리츠칼튼 동경은 4헥타르가 넘는 녹지와<br>
+컨벤션홀, 뷰티샵, 레스토랑, 쇼핑가가 밀집되어 있는 고도복합도시인 동경 미드타운의 심볼 타워인 미드타운타워의 최상층에 위치하고 있다.<br>
+동경에서 제일 높은 높이 248m의 미드타운 타워의 그랜드플로어(지하 1층~2층)와 45~53층이 리츠칼튼 동경이다.<br>
+동경타워를 시작으로 후지산 등의 장대한 파노라마뷰를 자랑하고 있으며, 전 객실은 248실 모두 52m²이상의 여유로운 크기를 자랑하고 있다.<br>
+45층에 위치한 격조 높은 스카이로비와 놀라운 도시 전망의 레스토랑과 바 또한 인상적이다. 최고 높이에 위치한 리츠칼튼 동경의 객실에서 바라보는 야경은 숨이 막힐 정도로 아름답다.<br>
+최고급 호텔에서의 호화롭고 여유로운, 100% 이상의 만족을 느낄 수 있는 리츠칼튼 동경으로 여러분을 초대한다. 
+</div>
+
+</body>
+</html>
